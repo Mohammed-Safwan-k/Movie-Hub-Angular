@@ -8,7 +8,7 @@
 }
 
 .carousel-caption h2 {
-    color: #e50914;
+    color: #E50914;
     font-weight: bold;
     font-size: 30px;
 }
@@ -24,7 +24,7 @@
 }
 
 .rowimg {
-    max-height: 200px;
+    max-height: 100px;
     object-fit: contain;
     width: 100%;
     box-sizing: content-box;

@@ -8,10 +8,11 @@ button:hover {
     color: #ffffff;
 }
 
-img{
+img {
     width: 100%;
+    cursor: pointer;
 }
 
-h5{
+h5 {
     color: #ffffff;
 }
