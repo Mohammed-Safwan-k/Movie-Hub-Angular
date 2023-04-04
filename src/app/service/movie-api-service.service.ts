@@ -38,4 +38,18 @@ export class MovieApiServiceService {
       `${this.baseurl}/movie/${data}?api_key=${this.apikey}`
     );
   }
+
+  // movievideo
+  getMovieVideo(data: any): Observable<any> {
+    return this.http.get(
+      `${this.baseurl}/movie/${data}/videos?api_key=${this.apikey}`
+    );
+  }
+
+  //moviecast
+  getMovieCast(data:any):Observable<any>{
+    return this.http.get(
+      `${this.baseurl}/movie/${data}/credits?api_key=${this.apikey}`
+    )
+  }
 }
